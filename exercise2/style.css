@@ -3,6 +3,9 @@ body {
 	font-size: 21px;
 	background: url('http://interiordesign.a2zfurniturestore.com/img/2/15626/1.jpg');
 }
+title{
+	font-size: 18px;
+}
 
 img{
 	max-width: 100%;
