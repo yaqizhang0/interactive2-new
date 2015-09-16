@@ -1,11 +1,16 @@
 body {
 	background: yellow;
-	font-family:impact;
+	font-family:Impact;
 	font-size: 21px;
+}
+
+img{
+	max-width: 100%;
 }
 
 .container{
 	width:600px;
 	margin:0 auto;
+	padding:14px 12px 22px 8px;
 }
 
