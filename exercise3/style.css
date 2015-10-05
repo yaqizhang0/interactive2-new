@@ -1,0 +1,68 @@
+.block-one {
+	position: absolute;
+	background: orange;
+	top: 0;
+	left: 0;
+	bottom: 50%;
+	right: 50%;
+	z-index: -1;
+}
+
+.block-two {
+	position: absolute;
+	background: pink;
+	left: 0;
+	bottom:0;
+	top: 50%;
+	right: 50%;
+	z-index: -1;
+
+}
+
+.block-three {
+	position: absolute;
+	background: blue;
+	top: 0;
+	right: 0;
+	left: 50%;
+	bottom: 50%;
+	z-index: -1;
+}
+
+.block-four {
+	position: absolute;
+	background: green;
+	right: 0;
+	bottom: 0;
+	left:50%;
+	top: 50%;
+	z-index: -1;
+}
+
+
+.container{
+	width: 600px;
+	height: 400px;
+	border: 15px solid grey;
+	background-color: white;
+	margin: 0 auto;
+	margin-top: 114px;
+	z-index: -1;
+
+}
+
+.search-bar{
+	width: 520px;
+	height: 60px;
+	border: 1px solid purple;
+	margin: 255px auto;
+}
+
+.button {
+	padding: 18px;
+	background: purple;
+	margin-left: 385px;
+	margin-right: 50px;
+	width: 127px;
+	height: 38px;
+}
