@@ -1,10 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<style>
+	.block-one {
+	position: absolute;
+	background: orange;
+	top: 0;
+	left: 0;
+	bottom: 50%;
+	left: 50%;
+}
+
+.block-two {
+	position: absolute;
+	background: orange;
+	right: 0;
+	bottom:0;
+	top: 50%;
+	right: 50%;
+	z-index: -1;
+
+}
+	</style>
 	<title>Project 2 01</title>
 	<meta charset="utf-8">
 </head>
 <body>
+	<div class="block-one">
 	<p>A Dream Within A Dream<br>
 		by Edgar Allan Poe<br>
 		<br>
@@ -20,7 +42,8 @@ Is it therefore the less gone?<br>
 All that we see or seem<br>
 Is but a dream within a dream.<br>
 <br>
-
+</div>
+<div class="block-two">
 I stand amid the roar<br>
 Of a surf-tormented shore,<br>
 And I hold within my hand<br>
@@ -35,5 +58,6 @@ One from the pitiless wave?<br>
 Is all that we see or seem<br>
 But a dream within a dream?</p>
 	</p>
+	</div>
 </body>
 </html>
