@@ -48,6 +48,7 @@
 	margin: 0 auto;
 	margin-top: 114px;
 	z-index: -1;
+	text-align: center;
 
 }
 
@@ -59,10 +60,10 @@
 }
 
 .button {
-	padding: 18px;
 	background: purple;
+	margin-top: 10px;
 	margin-left: 385px;
 	margin-right: 50px;
 	width: 127px;
-	height: 38px;
+	height: 36px;
 }
