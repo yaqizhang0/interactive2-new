@@ -1,41 +1,73 @@
 <!DOCTYPE html>
 <html>
 <head>
-	
-	</style>
+<style>
+div {
+    width: 200px;
+    height: 300px;
+  
+    font-weight: bold;
+    position: relative;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+    text-align: center;
+    padding: 20px;
+    border: 2px dotted black;
+}
+
+/* Chrome, Safari, Opera */
+#div1 {-webkit-animation-timing-function: linear;}
+#div2 {-webkit-animation-timing-function: ease;}
+#div3 {-webkit-animation-timing-function: ease-in;}
+
+/* Standard syntax */
+#div1 {animation-timing-function: linear;}
+#div2 {animation-timing-function: ease;}
+#div3 {animation-timing-function: ease-in;}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
+}
+
+
+/* Standard syntax */
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
+}
+</style>
 	<title>Project 2 01</title>
 	<meta charset="utf-8">
 </head>
 <body>
-	<p>A Dream Within A Dream<br></p>
-		<p style="text-align:center;">by Edgar Allan Poe<br></p>
-		<br>
-Take this kiss upon the brow!<br>
-<p style="text-align:center;">And, in parting from you now,<br></p>
-Thus much let me avow--<br>
-<p style="text-align:center;">You are not wrong, who deem<br></p>
-That my days have been a dream;<br>
-<p style="text-align:center;">Yet if hope has flown away<br></p>
-In a night, or in a day,<br>
-<p style="text-align:center;">In a vision, or in none,<br></p>
-Is it therefore the less gone?<br>
-<p style="text-align:center;">All that we see or seem<br></p>
-Is but a dream within a dream.<br>
-<br>
+	<div id="div1">A Dream Within A Dream 
+by Edgar Allan Poe
 
-<p style="text-align:center;">I stand amid the roar<br></p>
-Of a surf-tormented shore,<br>
-<p style="text-align:center;">And I hold within my hand<br></p>
-Grains of the golden sand--<br>
-<p style="text-align:center;">How few! yet how they creep<br></p>
-Through my fingers to the deep,<br>
-<p style="text-align:center;">While I weep--while I weep!<br></p>
-O God! can I not grasp<br>
-<p style="text-align:center;">Them with a tighter clasp?<br></p>
-O God! can I not save<br>
-<p style="text-align:center;">One from the pitiless wave?<br></p>
-Is all that we see or seem<br>
-<p style="text-align:center;">But a dream within a dream?</p></p>
-	</p>
+<div id="div1">Take this kiss upon the brow!
+And, in parting from you now,
+Thus much let me avow--
+You are not wrong, who deem
+That my days have been a dream;
+Yet if hope has flown away
+In a night, or in a day,
+In a vision, or in none,
+Is it therefore the less gone?
+All that we see or seem
+Is but a dream within a dream.
+
+<div id="div3">I stand amid the roar
+Of a surf-tormented shore,
+And I hold within my hand
+Grains of the golden sand--
+How few! yet how they creep
+Through my fingers to the deep,
+While I weep--while I weep!
+O God! can I not grasp
+Them with a tighter clasp?
+O God! can I not save
+One from the pitiless wave?
+Is all that we see or seem
+But a dream within a dream?
 </body>
 </html>
