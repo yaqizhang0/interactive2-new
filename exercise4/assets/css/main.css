@@ -1,0 +1,174 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+
+.canvas.red {
+	background: #F04722;
+}
+
+.object {
+	position: absolute;
+}
+
+.sphere {
+	background: white;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	bottom: 100px;
+	right: 250px;
+}
+
+.pumpkin {
+	background: orange;
+	width: 150px;
+	height: 130px;
+	border-radius: 50%;
+	bottom: 50px;
+	right: 220px;
+}
+
+.vase-container {
+	/*background: indigo;*/
+	width: 100px;
+	height: 400px;
+	bottom: 80px;
+	left: 170px;
+}
+
+.vase {
+	background: white;
+	width: 100px;
+	height: 250px;
+	opacity: 0.5;
+	bottom: 0;
+}
+
+.vase-bottom {
+	background: white;
+	width: 100px;
+	height: 25px;
+	border-radius: 50%;
+	bottom: -12px;
+}
+
+.vase-top {
+	background: white;
+	width: 100px;
+	height: 25px;
+	border-radius: 50%;
+	top: -12px;
+}
+
+.flower.one {
+	left: 20px;
+}
+
+.flower.two {
+	left: 40px;
+}
+
+.flower.three {
+	left: 60px;
+}
+
+.stem {
+	background: green;
+	width: 10px;
+	height: 400px;
+}
+
+.petal {
+	background: indigo;
+	width: 50px;
+	height: 20px;
+	border-radius: 50%;
+	top: -10px;
+}
+
+.canvas.aqua {
+	background: #C5F9D1;
+}
+
+.canvas.aqua.pumpkin {
+	background: orange;
+	width: 150px;
+	height: 130px;
+	border-radius: 50%;
+	bottom: 150px;
+	right: 530px;
+    -ms-transform: rotate(-27deg); /* IE 9 */
+    -webkit-transform: rotate(-27deg); /* Chrome, Safari, Opera */
+    transform: rotate(-27deg);
+}
+
+.canvas.aqua.sphere {
+	background: white;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	bottom: 130px;
+	right: 250px;
+}
+
+.water-glass {
+	background: white;
+	border-top: 200px solid white;
+	border-left: 8px transparent;
+	border-right: 8px transparent;
+	width: 105px;
+	height: 0;
+	opacity: 0.5;
+	bottom: 200px;
+    right: 250px;
+}
+
+.water-glass.bottom {
+	background: white;
+	width: 100px;
+	height: 25px;
+	border-radius: 50%;
+	bottom: -12px;
+	left: 8px;
+}
+
+.water-glass.top {
+	background: white;
+	width: 100px;
+	height: 25px;
+	border-radius: 50%;
+	top: -12px;
+	left:8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
