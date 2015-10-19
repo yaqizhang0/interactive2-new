@@ -99,7 +99,7 @@ body {
 }
 
 .canvas.aqua {
-	background: #C5F9D1;
+	background: #A1FFE3;
 }
 
 .canvas.aqua.pumpkin {
@@ -123,36 +123,99 @@ body {
 	right: 250px;
 }
 
-.water-glass {
-	background: white;
-	border-top: 200px solid white;
-	border-left: 8px transparent;
-	border-right: 8px transparent;
-	width: 105px;
-	height: 0;
-	opacity: 0.5;
-	bottom: 200px;
-    right: 250px;
+.water-glass-container {
+	/*background: indigo;*/
+	width: 100px;
+	height: 400px;
+	bottom: 80px;
+	left: 170px;
 }
 
-.water-glass.bottom {
-	background: white;
+.water-glass {
+	background: #C3C1C1;
+    width: 100px;
+    height: 200px;
+    opacity: 0.5;
+    left: 550px;
+    top: 130px;
+    z-index: 1;
+}
+
+.water-glass-bottom {
+	background: #C3C1C1;
 	width: 100px;
 	height: 25px;
 	border-radius: 50%;
 	bottom: -12px;
-	left: 8px;
 }
 
-.water-glass.top {
-	background: white;
+.water-glass-top {
+	background: #C3C1C1;
 	width: 100px;
 	height: 25px;
 	border-radius: 50%;
 	top: -12px;
-	left:8px;
 }
 
+.magnifying-glass
+{
+ font-size: 10em;
+    display: inline-block;
+    width: 0.4em;
+    height: 0.4em;
+    border: 0.1em solid black;
+    position: relative;
+    border-radius: 0.35em;
+    left: 500px;
+    top: 350px;
+    -ms-transform: rotate(-27deg); /* IE 9 */
+    -webkit-transform: rotate(-27deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+
+.magnifying-glass::before
+{
+ content: "";
+    display: inline-block;
+    position: absolute;
+    right: -0.25em;
+    bottom: -0.15em;
+    border-width: 0;
+    background: black;
+    width: 0.35em;
+    height: 0.08em;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+
+.banana.one  {
+  width: 150px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: 15px 15px 0 0 yellow;
+    left: 250px;
+    top: 300px;
+}
+
+.banana.two {
+	width: 150px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: 15px 15px 0 0 yellow;
+    left: 250px;
+    top: 280px;
+}
+
+.banana.three {
+	width: 150px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: 15px 15px 0 0 yellow;
+    left: 250px;
+    top: 320px;
+}
 
 
 
