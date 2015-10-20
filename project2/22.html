@@ -3,8 +3,14 @@
 <head>
   <style type="text/css">
 
-a.my-link {color:#FF00C2;}
-a.my-link:hover {color:#00FFC4;}
+#nav {
+    position: absolute;
+    left: 8px;
+}
+
+#nav a.my-link {color:#FF00C2;}
+
+#nav a.my-link:hover {color:#00FFC4;}
 
 </style>
 	<title>Project 2 01</title>
@@ -39,11 +45,13 @@ a.my-link:hover {color:#00FFC4;}
 <p style="color:#f7f7f7; background-color:#0c0c0c;">Is all that we see or seem</p><br>
 <p style="color:#fcfcfc; background-color:#000000;">But a dream within a dream?</p>
 	<div style="margin:0 auto">
-<a class="my-link" href="21.html">Previous</a>
-
-<a href="01.html">Level 5-2</a>
-
-<a class="my-link" href="23.html">Next</a>
+<div style="margin:0 auto">
+<div id="nav">
+    <a class="my-link" href="21.html">Previous</a>
+    <a href="index.html">Level 5-2</a>
+    <a class="my-link" href="23.html">Next</a>
+</div>
+</div>
 </div>
 </body>
 </html>

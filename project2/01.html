@@ -5,8 +5,14 @@
 	<meta charset="utf-8">
 <style type="text/css">
 
-a.my-link {color:#FF00C2;}
-a.my-link:hover {color:#00FFC4;}
+#nav {
+    position: absolute;
+    left: 8px;
+}
+
+#nav a.my-link {color:#FF00C2;}
+
+#nav a.my-link:hover {color:#00FFC4;}
 
 </style>
 </head>
@@ -43,11 +49,13 @@ Is all that we see or seem<br>
 But a dream within a dream?</p>
 	</p>
 	<div style="margin:0 auto">
-<a class="my-link" href="01.html">Previous</a>
-
-<a href="01.html">Level 1-1</a>
-
-<a class="my-link" href="02.html">Next</a>
+<div style="margin:0 auto">
+<div id="nav">
+    <a class="my-link" href="index.html">Previous</a>
+    <a href="index.html">Level 1-1</a>
+    <a class="my-link" href="02.html">Next</a>
+</div>
+</div>
 </div>
 </body>
 </html>

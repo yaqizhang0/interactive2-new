@@ -2,8 +2,15 @@
 <html>
 <head>
 <style>
-a.my-link {color:#FF00C2;}
-a.my-link:hover {color:#00FFC4;}
+#nav {
+    position: absolute;
+    left: 8px;
+}
+
+#nav a.my-link {color:#FF00C2;}
+
+#nav a.my-link:hover {color:#00FFC4;}
+
 div {
     width: 200px;
     height: 300px;
@@ -71,11 +78,13 @@ One from the pitiless wave?
 Is all that we see or seem
 But a dream within a dream?
 <div style="margin:0 auto">
-<a class="my-link" href="22.html">Previous</a>
-
-<a href="01.html">Level 5-3</a>
-
-<a class="my-link" href="24.html">Next</a>
+<div style="margin:0 auto">
+<div id="nav">
+    <a class="my-link" href="22.html">Previous</a>
+    <a href="index.html">Level 5-3</a>
+    <a class="my-link" href="24.html">Next</a>
+</div>
+</div>
 </div>
 </body>
 </html>

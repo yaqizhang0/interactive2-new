@@ -2,8 +2,15 @@
 <html>
 <head>
 	<style type="text/css">
-  a.my-link {color:#FF00C2;}
-a.my-link:hover {color:#00FFC4;}
+#nav {
+    position: absolute;
+    left: 8px;
+}
+
+#nav a.my-link {color:#FF00C2;}
+
+#nav a.my-link:hover {color:#00FFC4;}
+
 body {
 	background: grey;
 	font-family: sans-serif;
@@ -28,13 +35,7 @@ body {
 	<meta charset="utf-8">
 </head>
 <body>
-	<div style="margin:0 auto">
-<a class="my-link" href="23.html">Previous</a>
-
-<a href="01.html">Level 5-4</a>
-
-<a class="my-link" href="24.html">Next</a>
-</div>
+	
 	<div class="box"></div>
 	<p>A Dream Within A Dream<br>
 		by Edgar Allan Poe<br>
@@ -64,5 +65,13 @@ One from the pitiless wave?<br>
 Is all that we see or seem<br>
 But a dream within a dream?</p>
 	</p>
+
+<div style="margin:0 auto">
+<div id="nav">
+    <a class="my-link" href="23.html">Previous</a>
+    <a href="index.html">Level 5-4</a>
+    <a class="my-link" href="25.html">Next</a>
+</div>
+</div>
 </body>
 </html>

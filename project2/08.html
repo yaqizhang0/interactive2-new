@@ -5,8 +5,14 @@
 	<meta charset="utf-8">
 <style type="text/css">
 
-a.my-link {color:#FF00C2;}
-a.my-link:hover {color:#00FFC4;}
+#nav {
+    position: absolute;
+    left: 8px;
+}
+
+#nav a.my-link {color:#FF00C2;}
+
+#nav a.my-link:hover {color:#00FFC4;}
 
 </style>
 </head>
@@ -42,11 +48,13 @@ a.my-link:hover {color:#00FFC4;}
 <li>But a dream within a dream?</li>
 </ol>
 	</p>
-	<a class="my-link" href="07.html">Previous</a>
-
-<a href="01.html">Level 2-3</a>
-
-<a class="my-link" href="09.html">Next</a>
+<div style="margin:0 auto">
+<div id="nav">
+    <a class="my-link" href="07.html">Previous</a>
+    <a href="index.html">Level 2-3</a>
+    <a class="my-link" href="09.html">Next</a>
+</div>
+</div>
 </div>
 </body>
 </html>
