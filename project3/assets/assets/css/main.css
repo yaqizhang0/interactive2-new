@@ -1896,15 +1896,19 @@
 }
 
 .question .left4 {
-    height: 17.5px;
-    width: 8.75px;
+    height: 12px;
+    width: 6px;
     border-radius: 90px 90px 0 0;
     -moz-border-radius: 90px 90px 0 0;
     -webkit-border-radius: 90px 0 0 90px;
     background: #FD8FFA;
     opacity: 0.44;
-    left: 100px;
+    top: 90px;
+    left: 55px;
     position: absolute;
+    -ms-transform: rotate(-27deg);
+    -webkit-transform: rotate(-27deg);
+    transform: rotate(180deg);
 }
 
 .question .right3 {
@@ -1967,7 +1971,7 @@
     background: cyan;
     opacity: 0.44;
     position: absolute;
-    left: -23px;
+    left: 10px;
     top: 90px;
 }
 
