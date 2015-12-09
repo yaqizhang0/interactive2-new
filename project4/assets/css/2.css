@@ -1,0 +1,15 @@
+body {
+	background: url('../image/space.jpg');
+	background-size:cover;
+	background-attachment: fixed;
+	text-align: center;
+}
+h1 {
+	color:#00FEFC;
+	font-size: 60px;
+}
+
+.success {
+	display: inline-block;
+	margin: 200px auto;
+}
