@@ -13,3 +13,11 @@ h1 {
 	display: inline-block;
 	margin: 200px auto;
 }
+
+a {
+	 color:white;
+}
+
+a:hover { 
+    color: #00FEFC;
+}
